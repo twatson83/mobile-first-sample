@@ -1,10 +1,11 @@
+// @flow
 import express from "express";
 import http from "http";
 import routes from "./routes";
 import config from "./config";
 import bodyParser from "body-parser";
 
-export default function(callback) {
+export default function(callback : (Object) => void) : void {
     let app = express(),
         server = http.createServer(app);
 
@@ -18,4 +19,3 @@ export default function(callback) {
 
     server.listen(config.port, () => callback(app));
 }
-
