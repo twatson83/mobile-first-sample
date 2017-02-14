@@ -13,7 +13,7 @@ require('sinon-as-promised');
 
 import jsdom from 'node-jsdom';
 
-import testData from './data/index.js';
+import testData from './data';
 
 // get the window object out of the document
 let doc = jsdom.jsdom('<!doctype html><html><body></body></html>');
@@ -66,4 +66,3 @@ export {
     TestUtils,
     testData
 };
-
