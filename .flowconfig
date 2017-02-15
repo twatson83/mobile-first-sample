@@ -3,5 +3,9 @@
 [include]
 
 [libs]
+./CSSModule.js
 
 [options]
+module.name_mapper='.+\.s?css' -> 'CSSModule'
+module.file_ext=.js
+module.system=haste

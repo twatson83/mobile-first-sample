@@ -1,7 +1,8 @@
+// @flow
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-const rootRoute = {
+const rootRoute : Object = {
     childRoutes: [ {
         path: '/',
         component: require('./shared/components/App'),

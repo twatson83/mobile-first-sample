@@ -38,14 +38,14 @@
     "flow-bin": "0.39.0",
     "gulp-mocha": "3.0.1",
     "mocha-babel": "3.0.3",
-    "webpack": "2.2.1",
-    "webpack-dev-server": "2.3.0",
-    "webpack-hot-middleware": "2.16.1",
     "node-jsdom": "^3.1.5",
     "node-jsx": "^0.13.3",
     "redux-devtools": "^2.1.5",
     "sinon-as-promised": "^4.0.0",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^2.8.0",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0",
+    "webpack-hot-middleware": "2.16.1"
   },
   "dependencies": {
     "body-parser": "1.16.1",
@@ -53,6 +53,7 @@
     "file-loader": "0.10.0",
     "font-awesome": "4.7.0",
     "isomorphic-fetch": "2.2.1",
+    "istanbul": "0.4.5",
     "moment": "2.17.1",
     "node-gyp-install": "2.2.0",
     "react": "15.4.2",

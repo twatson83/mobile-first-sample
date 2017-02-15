@@ -1,25 +1,9 @@
-module.exports = (function (env) {
-    var config = {};
-    switch (env) {
-        case 'production':
-            config = require('./production');
-            break;
+// @flow
+var config : Object = {
+    logging: {
+        level: "debug"
+    },
+    port: 2998
+};
 
-        case 'development':
-            config = require('./development');
-            break;
-
-        case 'test':
-            config = require('./test');
-            break;
-
-        case 'staging':
-            config = require('./staging');
-            break;
-        default:
-            console.error('NODE_ENV environment variable not set');
-            process.exit(1);
-    }
-
-    return config;
-})(process.env.NODE_ENV);
+module.exports = config;
