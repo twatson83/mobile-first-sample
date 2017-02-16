@@ -1,5 +1,5 @@
 
-import React from 'react/addons';
+import React from 'react-addons';
 import chai from 'chai';
 import chaiPromise from 'chai-as-promised';
 import sinon from 'sinon';
